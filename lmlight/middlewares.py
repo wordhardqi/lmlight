@@ -9,7 +9,6 @@ from scrapy import signals
 import random
 from lmlight.settings import UserAgent_List
 class RandomUserAgentMiddleware(object):
-    '''动态随机设置 User-agent'''
     def process_request(self, request, spider):
 
         ua = random.choice(UserAgent_List)
