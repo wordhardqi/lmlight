@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7afff3b-3696-42f2-b5f8-2a21c36c490b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawls/requests.seen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawls/spider.state" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/robtex_nodelist_6.25.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/robtex_nodelist_6.25.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lmlight/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/lmlight/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lmlight/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lmlight/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="a7afff3b-3696-42f2-b5f8-2a21c36c490b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,20 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="run.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="59" selection-start-column="59" selection-end-column="59" />
+            <state relative-caret-position="18">
+              <caret line="1" lean-forward="true" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -384,11 +375,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530151657099</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init commit">
+      <created>1530152036833</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530152036833</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="289" y="272" width="1387" height="905" extended-state="0" />
+    <frame x="135" y="24" width="1387" height="905" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -630,17 +628,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="59" selection-start-column="59" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-end-line="1" />
         </state>
       </provider>
     </entry>
