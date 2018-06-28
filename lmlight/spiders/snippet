@@ -1,0 +1,7 @@
+response.xpath("//a[contains(text(),'Channel Id:')]/@href").extract()
+response.xpath("//a[contains(text(),'Channel Id:')]/parent::span/following-sibling::span/text()").extract()
+response.xpath("//h5[contains(text(), 'Last Update')]/following-sibling
+    ...: ::span/text()").extract_first()
+sys.stdout.write('\r>> Converting image %d/%d shard %d' % (
+                i+1, len(filenames), shard_id))
+sys.stdout.flush()

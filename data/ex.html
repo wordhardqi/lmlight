@@ -1,0 +1,141 @@
+2018-06-27 17:32:59 [scrapy.core.engine] DEBUG: Crawled (403) <GET https://1ml.com/channel/581977002257940481> (referer: https://1ml.com/node/02a456b816697c6b8407ee2176475d74b790a96143bc30e896e8bf7a8852a8b637)
+2018-06-27 17:32:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <403 https://1ml.com/channel/581977002257940481>: HTTP status code is not handled or not allowed
+2018-06-27 17:32:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1ml.com/channel/579798869668331521> (referer: https://1ml.com/node/02ad6fb8d693dc1e4569bcedefadf5f72a931ae027dc0f0c544b34c1c6f3b9a02b)
+2018-06-27 17:32:59 [1ml_spider] WARNING: URL is https://1ml.com/channel/579798869668331521
+2018-06-27 17:32:59 [scrapy.core.scraper] ERROR: Spider error processing <GET https://1ml.com/channel/579798869668331521> (referer: https://1ml.com/node/02ad6fb8d693dc1e4569bcedefadf5f72a931ae027dc0f0c544b34c1c6f3b9a02b)
+Traceback (most recent call last):
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/renming/lmlight/lmlight/spiders/1ml.py", line 58, in parse
+    channel_info = json.loads(channel_info)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-27 17:32:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1ml.com/channel/571769136263266304> (referer: https://1ml.com/node/020fccc5602053c438b13ebee7aa31a25e9c3803baace5afcecedff8db70543747)
+2018-06-27 17:32:59 [1ml_spider] WARNING: URL is https://1ml.com/channel/571769136263266304
+2018-06-27 17:32:59 [scrapy.core.scraper] ERROR: Spider error processing <GET https://1ml.com/channel/571769136263266304> (referer: https://1ml.com/node/020fccc5602053c438b13ebee7aa31a25e9c3803baace5afcecedff8db70543747)
+Traceback (most recent call last):
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/renming/lmlight/lmlight/spiders/1ml.py", line 58, in parse
+    channel_info = json.loads(channel_info)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-27 17:33:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1ml.com/channel/568225410356871168> (referer: https://1ml.com/node/020fccc5602053c438b13ebee7aa31a25e9c3803baace5afcecedff8db70543747)
+2018-06-27 17:33:00 [1ml_spider] WARNING: URL is https://1ml.com/channel/568225410356871168
+2018-06-27 17:33:00 [scrapy.core.scraper] ERROR: Spider error processing <GET https://1ml.com/channel/568225410356871168> (referer: https://1ml.com/node/020fccc5602053c438b13ebee7aa31a25e9c3803baace5afcecedff8db70543747)
+Traceback (most recent call last):
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/renming/lmlight/lmlight/spiders/1ml.py", line 58, in parse
+    channel_info = json.loads(channel_info)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-27 17:33:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1ml.com/channel/567672355997417472> (referer: https://1ml.com/node/020fccc5602053c438b13ebee7aa31a25e9c3803baace5afcecedff8db70543747)
+2018-06-27 17:33:01 [1ml_spider] WARNING: URL is https://1ml.com/channel/567672355997417472
+2018-06-27 17:33:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://1ml.com/channel/567672355997417472> (referer: https://1ml.com/node/020fccc5602053c438b13ebee7aa31a25e9c3803baace5afcecedff8db70543747)
+Traceback (most recent call last):
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/renming/lmlight/lmlight/spiders/1ml.py", line 58, in parse
+    channel_info = json.loads(channel_info)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-27 17:33:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1ml.com/channel/570127565402669056> (referer: https://1ml.com/node/020fccc5602053c438b13ebee7aa31a25e9c3803baace5afcecedff8db70543747)
+2018-06-27 17:33:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1ml.com/channel/567730630074171392> (referer: https://1ml.com/node/020fccc5602053c438b13ebee7aa31a25e9c3803baace5afcecedff8db70543747)
+2018-06-27 17:33:02 [1ml_spider] WARNING: URL is https://1ml.com/channel/570127565402669056
+2018-06-27 17:33:02 [scrapy.core.scraper] ERROR: Spider error processing <GET https://1ml.com/channel/570127565402669056> (referer: https://1ml.com/node/020fccc5602053c438b13ebee7aa31a25e9c3803baace5afcecedff8db70543747)
+Traceback (most recent call last):
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/renming/lmlight/lmlight/spiders/1ml.py", line 58, in parse
+    channel_info = json.loads(channel_info)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2018-06-27 17:33:02 [1ml_spider] WARNING: URL is https://1ml.com/channel/567730630074171392
+2018-06-27 17:33:02 [scrapy.core.scraper] ERROR: Spider error processing <GET https://1ml.com/channel/567730630074171392> (referer: https://1ml.com/node/020fccc5602053c438b13ebee7aa31a25e9c3803baace5afcecedff8db70543747)
+Traceback (most recent call last):
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/renming/lmlight/lmlight/spiders/1ml.py", line 58, in parse
+    channel_info = json.loads(channel_info)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/renming/anaconda3/envs/py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+^A^C2018-06-27 17:33:18 [scrapy.crawler] INFO: Received SIG_SETMASK twice, forcing unclean shutdown
